@@ -1,0 +1,9 @@
+body{
+    background-color: bisque;
+    
+}
+.contenedor{
+    height: 100%;
+    display: grid;
+    place-items: center;
+}
