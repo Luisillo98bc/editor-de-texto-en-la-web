@@ -17,4 +17,10 @@ formulario.addEventListener('submit', (e) => {
 
     const contenido = tinymce.activeEditor.getContent();
     console.log(contenido);
+    
+    const contenidoHTML = document.getElementById('editor').value;
+    document.getElementById('salida').innerHTML = contenidoHTML;
+    
+    
 })
+
